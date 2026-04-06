@@ -1,0 +1,13 @@
+@import url('./fonts.css');
+
+h1, h2, h3, h4, h5, h6{ font-family: var(--main-font); }
+
+p{ font-family: var(--main-font); font-size: 15px; }
+
+h1{ font-size: 40px; }
+
+h2{ font-size: 18px; }
+
+h3{ font-size: 53px; }
+
+a{ font-family: var(--main-font); font-size: 16px; }
