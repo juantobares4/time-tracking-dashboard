@@ -1,4 +1,4 @@
-.parent{
+#dashboard{
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(8, 1fr);
@@ -6,7 +6,7 @@
 
 }
     
-.parent > div{
+#dashboard > section{
   border: 1px solid black;
   padding: 24px;
   border-radius: 1rem;
