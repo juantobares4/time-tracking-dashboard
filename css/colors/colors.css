@@ -1,5 +1,5 @@
 :root{
-  --background-color: hsl(246, 80%, 60%);
+  --bg-primary-400: hsl(246, 80%, 60%);
   --work-color: hsl(15, 100%, 70%);
   --play-color: hsl(195, 74%, 62%);
   --study-color: hsl(348, 100%, 68%);

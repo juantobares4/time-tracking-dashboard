@@ -1,0 +1,43 @@
+@import url('/css/colors/colors.css');
+
+/* Colors Class */
+
+.bg-primary-400 { background-color: var(--bg-primary-400); }
+
+.work-color { background-color: var(--work-color); }
+
+.play-color { background-color: var(--play-color); }
+
+.study-color { background-color: var(--study-color); }
+
+.exercise-color { background-color: var(--exercise-color); }
+
+.social-color { background-color: var(--social-color); }
+
+.self-care-color { background-color: var(--self-care-color); }
+
+.navy-950 { background-color: var(--navy-950); }
+
+.navy-900 { background-color: var(--navy-900); }
+
+.purple-500 { background-color: var(--purple-500); }
+
+.navy-200 { background-color: var(--navy-200); }
+
+/* Font Sizes Class */
+
+.fs-300{ font-size: 0.9375rem; } /* 15px */
+
+.fs-400{ font-size: .125rem; } /* 18px */
+
+.fs-600{ font-size: 2.5rem; } /* 40px */
+
+.fs-700{ font-size: .5rem; } /* 56px */
+
+/* Font Weight Class */
+
+.fw-light{ font-weight: 300; }
+
+.fw-regular{ font-weight: 400; }
+
+.fw-medium{ font-weight: 500; }

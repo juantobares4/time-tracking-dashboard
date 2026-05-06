@@ -4,6 +4,20 @@
 
 @import url('./components.css');
 
+@import url('./utilities.css');
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+
+}
+
+*{
+  margin: 0;
+
+}
+
 body, html{
   margin: 0;
   padding: 0;
@@ -20,7 +34,3 @@ body{
   min-height: 100dvh;
 
 }
-
-p{ color: var(--purple-500); }
-
-a{ text-decoration: none; color: var(--purple-500); }
