@@ -2,6 +2,17 @@
 
 @import url('../colors/colors.css');
 
+:root{
+  --fs-300: 0.9375rem;
+  --fs-400: 1.125rem;
+  --fs-600: 2.5rem;
+  --fs-700: 3.5rem;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+
+}
+
 h1, h2, h3, h4, h5, h6{ font-family: var(--main-font); }
 
 p{ font-family: var(--main-font); font-size: 15px; color: var(--purple-500); }
@@ -11,11 +22,3 @@ h1{ font-size: 40px; }
 h2{ font-size: 18px; }
 
 h3{ font-size: 53px; }
-
-a{ 
-  font-family: var(--main-font); 
-  font-size: 16px; 
-  text-decoration: none; 
-  color: var(--purple-500); 
-
-}

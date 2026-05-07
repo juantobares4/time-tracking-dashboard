@@ -1,8 +1,12 @@
+@import url('./colors/colors.css');
+
+@import url('./fonts/typography.css');
+
 #dashboard{
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  gap: 8px;
+  gap: 1rem;
 
 }
     
@@ -11,6 +15,8 @@
   border-radius: 1rem;
 
 }
+
+/* Profile */
 
 .card--profile{
   background-color: var();
@@ -21,13 +27,6 @@
 
 .profile__top{
   border-radius: 1rem;
-
-}
-
-.profile__bottom a{
-  display: block;
-  margin-bottom: 1.3rem;
-  color: var(--purple-500);
 
 }
 
@@ -48,7 +47,89 @@
 
 }
 
+.profile__bottom a{
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1.3rem;
+  color: var(--purple-500);
+
+}
+
+.profile__link:hover{ color: #FFF; }
+
+/* Close Profile */
+
+.card--activities{
+  background-color: #FFF;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: grid;
+  transition: transform 0.3s;
+  
+}
+
+.card--activities:hover{
+  transform: perspective(950px) rotateX(-4deg) rotateY(4deg) scale(1.03);
+
+}
+
+.card--activities > .card__bottom{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+}
+
+.card__bottom{
+  border-radius: 1rem;
+  padding: 2rem 2rem 0 2rem;
+  background-color: var(--navy-900);
+
+}
+
+.button{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  
+}
+
+.button .dots{
+  background-image: url('/images/icons/icon-ellipsis.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+
+}
+
+.card__bottom-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.card__bottom-header h2{
+  font-weight: var(--fw-regular);
+
+}
+
+.card__bottom-container h3{
+  line-height: 1.2;
+  font-weight: var(--fw-light);
+
+}
+
 .card--work{
+  background-color: var(--work-color);
   grid-column: span 2 / span 2;
   grid-row: span 4 / span 4;
   grid-column-start: 4;
@@ -56,6 +137,7 @@
 }
 
 .card--exercise{
+  background-color: var(--exercise-color);
   grid-column: span 2 / span 2;
   grid-row: span 4 / span 4;
   grid-column-start: 4;
@@ -64,6 +146,7 @@
 }
 
 .card--play{
+  background-color: var(--play-color);
   grid-column: span 2 / span 2;
   grid-row: span 4 / span 4;
   grid-column-start: 6;
@@ -72,6 +155,7 @@
 }
 
 .card--social{
+  background-color: var(--social-color);
   grid-column: span 2 / span 2;
   grid-row: span 4 / span 4;
   grid-column-start: 6;
@@ -80,6 +164,7 @@
 }
 
 .card--study{
+  background-color: var(--study-color);
   grid-column: span 2 / span 2;
   grid-row: span 4 / span 4;
   grid-column-start: 8;
@@ -88,10 +173,10 @@
 }
 
 .card--self-care{
+  background-color: var(--self-care-color);
   grid-column: span 2 / span 2;
   grid-row: span 4 / span 4;
   grid-column-start: 8;
   grid-row-start: 5;
 
-}
-        
+}        
