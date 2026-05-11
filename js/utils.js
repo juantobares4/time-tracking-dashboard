@@ -1,15 +1,22 @@
-import { fetchData } from "./fetch.js";
+export const parseStringByFilter = (timeframe) => {
+  switch (timeframe) {
+    case 'daily':
+      return 'day';  
 
-const activities = await fetchData();
+      break;
+  
+    case 'weekly':
+      return 'week'
 
-export const filterTimeframe = async({ frequencyFilter = null }) => {
-  return activities.map(activity => {
-    return{
-      current: activity['timeframes'][frequencyFilter].current,
-      previous: activity['timeframes'][frequencyFilter].previous,
-    
-    };
+      break
 
-  });
+    case 'monthly':
+      return 'month';
+
+      break
+  
+  };
+
+  return timeframe;
 
 };

@@ -1,5 +1,5 @@
-import { filterTimeframe } from "./utils.js";
 import { fetchData } from "./fetch.js";
+import { parseStringByFilter } from "./utils.js";
 
 const profileLinks = document.querySelectorAll('.profile__link');
 const activities = await fetchData(); 
@@ -11,7 +11,7 @@ const handleProfileLinksEvent = () => {
     
     ));
 
-  })
+  });
 
 };
 
@@ -23,7 +23,7 @@ const handlePreviousFrequency = async({ filter }) => {
   
     const findActivity = activities.find(activity => activity.title === previousElementDataset);
 
-    element.textContent = `Last day - ${findActivity['timeframes'][filter].previous}hrs`;     
+    element.textContent = `Last ${parseStringByFilter(filter)} - ${findActivity['timeframes'][filter].previous}hrs`;     
 
   });
 
@@ -47,7 +47,7 @@ const handleCurrentFrequency = async({ filter }) => {
 
 const main = () => {
   handleProfileLinksEvent();
-  handleCurrentFrequency({filter: 'monthly' });
+  handleCurrentFrequency({filter: 'daily' });
   handlePreviousFrequency({ filter: 'daily' });
 
 };
