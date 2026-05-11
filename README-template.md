@@ -46,8 +46,6 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript Vanilla 
 - Bootstrap - CSS Framework (https://getbootstrap.com/)
-- Coolors.co (https://coolors.co/)
-- Phosphor Icons (https://phosphoricons.com/)
 
 ### What I learned
 
