@@ -1,22 +1,11 @@
 export const parseStringByFilter = (timeframe) => {
-  switch (timeframe) {
-    case 'daily':
-      return 'day';  
-
-      break;
+  let parsedTimeframe = String(timeframe).slice(0, timeframe.indexOf('ly'));
   
-    case 'weekly':
-      return 'week'
+  if (parsedTimeframe.endsWith('i')) {
+    parsedTimeframe = parsedTimeframe.slice(0, -1) + 'y' ;
 
-      break
-
-    case 'monthly':
-      return 'month';
-
-      break
-  
   };
 
-  return timeframe;
-
+  return parsedTimeframe;
+  
 };
