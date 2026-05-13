@@ -9,7 +9,7 @@
   gap: 1rem;
 
 }
-    
+
 #dashboard > section{
   padding: 24px;
   border-radius: 1rem;
@@ -20,8 +20,8 @@
 
 .card--profile{
   background-color: var();
-  grid-column: span 3 / span 3;
-  grid-row: span 8 / span 8;
+  grid-column: 1 / 4;
+  grid-row: 1 / 9;
 
 }
 
@@ -43,7 +43,7 @@
 
 .profile__img{
   width: 100%;
-  object-fit: cover;  
+  object-fit: cover;
 
 }
 
@@ -55,7 +55,10 @@
 
 }
 
-.profile__link:hover{ color: #FFF; }
+.profile__link:hover{
+  color: #FFF;
+
+}
 
 /* Close Profile */
 
@@ -67,7 +70,7 @@
   padding: 0 !important;
   display: grid;
   transition: transform 0.3s;
-  
+
 }
 
 .card--activities:hover{
@@ -87,7 +90,7 @@
   background-position: right 0px top -10px;
   margin-right: 1rem;
   padding: 1rem;
-  
+
 }
 
 .card__bottom{
@@ -106,7 +109,7 @@
   position: relative;
   width: 20px;
   height: 20px;
-  
+
 }
 
 .button .dots{
@@ -140,11 +143,12 @@
 
 /* Close Cards Styles */
 
+/* ### Cards Position ### */
+
 .card--work{
   background-color: var(--work-color);
-  grid-column: span 2 / span 2;
-  grid-row: span 4 / span 4;
-  grid-column-start: 4;
+  grid-column: 4 / 6;
+  grid-row: 1 / 5;
 
 }
 
@@ -155,10 +159,8 @@
 
 .card--exercise{
   background-color: var(--exercise-color);
-  grid-column: span 2 / span 2;
-  grid-row: span 4 / span 4;
-  grid-column-start: 4;
-  grid-row-start: 5;
+  grid-column: 4 / 6;
+  grid-row: 5 / 9;
 
 }
 
@@ -170,10 +172,8 @@
 
 .card--play{
   background-color: var(--play-color);
-  grid-column: span 2 / span 2;
-  grid-row: span 4 / span 4;
-  grid-column-start: 6;
-  grid-row-start: 1;
+  grid-column: 6 / 8;
+  grid-row: 1 / 5;
 
 }
 
@@ -185,10 +185,8 @@
 
 .card--social{
   background-color: var(--social-color);
-  grid-column: span 2 / span 2;
-  grid-row: span 4 / span 4;
-  grid-column-start: 6;
-  grid-row-start: 5;
+  grid-column: 6 / 8;
+  grid-row: 5 / 9;
 
 }
 
@@ -199,10 +197,8 @@
 
 .card--study{
   background-color: var(--study-color);
-  grid-column: span 2 / span 2;
-  grid-row: span 4 / span 4;
-  grid-column-start: 8;
-  grid-row-start: 1;
+  grid-column: 8 / 10;
+  grid-row: 1 / 5;
 
 }
 
@@ -213,14 +209,93 @@
 
 .card--self-care{
   background-color: var(--self-care-color);
-  grid-column: span 2 / span 2;
-  grid-row: span 4 / span 4;
-  grid-column-start: 8;
-  grid-row-start: 5;
+  grid-column: 8 / 10;
+  grid-row: 5 / 9;
 
-}        
+}
 
 .card--self-care .card__top{
   background-image: url('/images/icons/icon-self-care.svg');
+
+}
+
+@media (max-width: 768px){
+  #dashboard{
+    padding-block: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1.5rem;
+
+  }
+
+  #dashboard > section{
+    grid-column: auto !important;
+    grid-row: auto !important;
+  
+  }
+
+  .profile__top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+  }
+
+  .profile__avatar{
+    margin-bottom: 0;
+    
+  }
+
+  .profile__bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 960px){
+  #dashboard{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+
+  .card--profile{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
+  .card--work{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .card--play{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .card--exercise{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .card--social{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .card--study{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  .card--self-care{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+  }
 
 }
