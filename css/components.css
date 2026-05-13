@@ -33,7 +33,7 @@
 .profile__avatar{
   background-color: var(--purple-500);
   width: 100px;
-  height: 100px;
+  height: auto;
   overflow: hidden;
   border-radius: 50%;
   margin-bottom: 20px;
@@ -55,7 +55,7 @@
 
 }
 
-.profile__link:hover{
+.profile__link:hover, .profile__link:active{
   color: #FFF;
 
 }
@@ -73,7 +73,7 @@
 
 }
 
-.card--activities:hover{
+.card--activities:hover, .card--activities:active{
   transform: perspective(1000px) rotateX(-4deg) rotateY(4deg) scale(1.03);
 
 }
@@ -222,10 +222,21 @@
 @media (max-width: 768px){
   #dashboard{
     padding-block: 1rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto;
     gap: 1.5rem;
 
+  }
+
+  .card--activities{
+    min-width: 0;
+    overflow: hidden;
+  
+  }
+
+  .card__top{
+    margin-right: 0;
+  
   }
 
   #dashboard > section{
@@ -263,6 +274,11 @@
     gap: 1rem;
   }
 
+  .profile__top{
+    display: block;
+  
+  }
+
   .card--profile{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
@@ -296,6 +312,16 @@
   .card--self-care{
     grid-column: 2 / 3;
     grid-row: 4 / 5;
+  }
+
+  .card--work,
+  .card--exercise,
+  .card--play,
+  .card--social,
+  .card--study,
+  .card--self-care{
+    grid-column-start: auto;
+    grid-row-start: auto;
   }
 
 }

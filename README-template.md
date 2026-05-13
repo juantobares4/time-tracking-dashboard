@@ -1,6 +1,6 @@
-# Frontend Mentor - Time tracking dashboard solution
+# Frontend Mentor - Time Tracking Dashboard Solución
 
-This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta es una solución de [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Los desafíos de Frontend Mentor ayudan a mejorar tus habilidades de programación construyendo proyectos realistas.
 
 ## Table of contents
 
@@ -21,19 +21,23 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ### The challenge
 
-Users should be able to:
+Los usuarios deberían poder hacer:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Switch between viewing Daily, Weekly, and Monthly stats
+- Ver el diseño de la página adaptado a su tamaño de pantalla según su dispositivo
+- Ver los efectos al pasar el cursor por encima de todos los elementos interactivos en la página
+- Alternar entre estadísticas diarias, semanales, y mensuales
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Proyecto finalizado en pantalla 1400px](./design-screenshots/desktop-device.png)
+
+![Proyecto finalizado en pantalla 820px](./design-screenshots/tablet-device.png)
+
+![Proyecto finalizado en pantalla 412px](./design-screenshots/mobile-device.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Visitar página en tiempo real: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -43,29 +47,27 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 - JavaScript Vanilla 
 - Bootstrap - CSS Framework (https://getbootstrap.com/)
 
 ### What I learned
 
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Pude comprender con mayor facilidad el diseño en grilla y su comportamiento tanto en diseños de celular como en tablets.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Quiero enfocarme en proyectos que sean realistas y que me ayuden a mejorar habilidades relacionadas al diseño y la accesibilidad.
+Considero que mi lógica de programación aún es un poco escasa, por lo tanto, quiero desarrollar aplicaciones y realizar ejercicios que me ayuden a fortalecer ese aspecto.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Grid Generator](https://cssgridgenerator.io/) - Esta herramienta simplificó el proceso inicial de maquetado del layout en grid.
+
+- [Responsively App](https://responsively.app/) - Esta herramienta me ayudó a desarrollar y visualizar correctamente el diseño responsivo en distintos dispositivos.
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
+- ¿Qué IA? (e.g., ChatGPT, Claude, GitHub Copilot)?
 - How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
 - What worked well? What didn't?
 
