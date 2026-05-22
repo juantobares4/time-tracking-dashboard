@@ -4,22 +4,21 @@ Esta es una solución de [Time tracking dashboard challenge on Frontend Mentor](
 
 ## Tabla de contenidos
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+- [Resumen](#resumen)
+  - [El desafio](#el-desafio)
+  - [Capturas de Pantalla](#capturas-de-pantalla)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Mi Proceso](#mi-proceso)
+  - [Construido con...](#construido-con)
+  - [Que aprendi](#que-aprendi)
+  - [Continuar desarrollando](#continuar-desarrollando)
+  - [Recursos utiles](#useful-resources)
+  - [IAs utilizadas](#ias-utilizadas)
+- [Autor](#autor)
 
 ## Resumen
 
-### El desafío
+### El desafio
 
 Los usuarios deberían poder hacer:
 
@@ -39,7 +38,7 @@ Los usuarios deberían poder hacer:
 
 - Visitar página en tiempo real: [Add live site URL here](https://your-live-site-url.com)
 
-## Mi proceso
+## Mi Proceso
 
 ### Construido con...
 
@@ -50,16 +49,16 @@ Los usuarios deberían poder hacer:
 - JavaScript Vanilla 
 - Bootstrap - CSS Framework (https://getbootstrap.com/)
 
-### Que aprendí
+### Que aprendi
 
 Pude comprender con mayor facilidad el diseño en grilla y su comportamiento tanto en diseños de celular como en tablets.
 
-### Desarrollo continuo
+### Continuar desarrollando
 
 Quiero enfocarme en proyectos que sean realistas y que me ayuden a mejorar habilidades relacionadas al diseño y la accesibilidad.
 Considero que mi lógica de programación aún es un poco escasa, por lo tanto, quiero desarrollar aplicaciones y realizar ejercicios que me ayuden a fortalecer ese aspecto.
 
-### Recursos útiles
+### Recursos utiles
 
 - [CSS Grid Generator](https://cssgridgenerator.io/) - Esta herramienta simplificó el proceso inicial de maquetado del layout en grid.
 
