@@ -16,7 +16,7 @@ Esta es una solución de [Time tracking dashboard challenge on Frontend Mentor](
   - [IAs utilizadas](#ias-utilizadas)
 - [Autor](#autor)
 
-## Resumen
+## Resumen  
 
 ### El desafio
 
@@ -36,7 +36,7 @@ Los usuarios deberían poder hacer:
 
 ### Links
 
-- Visitar página en tiempo real: [Add live site URL here](https://your-live-site-url.com)
+- Visitar página en tiempo real: [Time Tracking Dashboard](https://time-tracking-dashboard-omega-nine.vercel.app/)
 
 ## Mi Proceso
 
